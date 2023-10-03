@@ -1,6 +1,15 @@
 package Lesson_2;
 
-/**  Задание: Если необходимо, исправьте данный код.
+/**  Задание: Если необходимо, исправьте данный код:
+ * try {
+ *    int d = 0;
+ *    double catchedRes1 = intArray[8] / d;
+ *    System.out.println("catchedRes1 = " + catchedRes1);
+ * } catch (ArithmeticException e) {
+ *    System.out.println("Catching exception: " + e);
+ * }
+ *
+ * Ответ:
  *  1) переменная `intArray` не инициализирована.
  *  2) деление на ноль вызывает исключение `ArithmeticException`, а не `NumberFormatException`.
  */
